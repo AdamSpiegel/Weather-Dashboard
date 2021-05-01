@@ -1,5 +1,3 @@
-# Weather-Dashboard
-
 # Weather-Dashboard ☀️🌨️🌥️🌩️🌤️
 
 ## Project Criteria
@@ -24,20 +22,19 @@
 
     3) Utilizing bootstrap and modifying for style, the zip code search bar was developed first, with an added button for the user.  A card was also established through bootstrap to display the current date and time.
 
-    4) 
+    4) A column was then developed with rows to display the current city weather description, temperature, wind speed, humidity and uv index.
 
-    5) 
+    5) JavaScript - I spent a majority of my week, trying to get the functionality of this weather planner working properly, with little success unfortunatly.  I need to build out the variables and functions I know, but the syntax is proving difficult.
 
     **Items in Progress/Troubleshooting 
     1) Correct JavasScript Functionility - Still need to work on understanding how this links together
-    2) API calls - While understanding the correct concept of the fetch/get function, I need to understand how this syntax is written.
+    2) API calls - While understanding the correct concept of the fetch/get function, I need to properly understand how this syntax is written.
  
     
-<!-- Insert updated screenshots below of Weather Dashboard -->
-<!-- 
- <img src="Screenshot (34).png" alt="Day Planner Image 1">
 
- <img src="Screenshot (35).png" alt="Day Planner Image 2">  -->
+ <img src="Screenshot (42).png" alt="Weather Dashboard Image">
+
+
 
 
 
