@@ -11,7 +11,7 @@
     <link rel = "shortcut icon" type = "image/x-icon" href = "Assets/sun2.png">
 </head>
 
-<header class = "text-center text-white bg-dark p-8">
+<header class="navbar bg-dark text-light d-flex justify-content-center">
     <h1>Weather Dashboard</h1>
 </header>
 
@@ -24,20 +24,28 @@
           <button class="btn btn-primary search-submit" type="button" id="search-submit"><i id="" class="fa fa-search"></i></button>
         </div>
 
-        <!-- Card used for displaying current weather -->
-        <div class="card" style="width: 18rem;">
-            <div id="current weather">
-              <h5 class="card-title">Card title</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-          </div>
+        <div class="col-9" id="content">
+               
+            <div id="weather-info">
+                <h1><span id="city"></span> <img id="weather-image" src=""> <span id="date"></span></h1>
+                <p>Description: <span id="description-weather"></span></p>                        
+                <p>Temperature: <span id="temperature"></span> &#8457</p>
+                <p>Wind Speed: <span id="wind-speed"></span> mph</p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+                <p>UV Index: <span id="uv-index"></span></p>
+            </div>  
 
         <!-- 5 cards used to display future forecast -->
-
-        
-
-
+        <div class="card bg-light mb-3" style="max-width: 18rem;">
+            <div class="card-header">5 Day Forecast Weather</div>
+            <div class="card-body">
+              <h5 class="date-display"> Current Date</h5>
+              <p class="card-text">Placeholder for current day weather</p>
+            </div>
+      
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
     <script src = "script.js"></script>    
+
 </body>
 </html>
